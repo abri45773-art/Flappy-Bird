@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#4ec0ca" />
+  <title>Flappy Bird</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐤</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="stage">
+    <canvas id="game" width="360" height="640" aria-label="Flappy Bird game"></canvas>
+
+    <button id="btn-sound" class="icon-btn" type="button" title="Suara (M)" aria-label="Aktif/matikan suara">
+      <span id="sound-glyph">🔊</span>
+    </button>
+
+    <div id="hint" class="hint">
+      <kbd>Space</kbd> / <kbd>Klik</kbd> terbang &nbsp;·&nbsp; <kbd>P</kbd> jeda &nbsp;·&nbsp; <kbd>M</kbd> suara
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
