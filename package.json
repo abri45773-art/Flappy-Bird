@@ -1,0 +1,13 @@
+{
+  "name": "flappy-bird",
+  "version": "1.0.0",
+  "description": "Game Flappy Bird berbasis HTML5 Canvas — tanpa dependensi, tanpa aset biner.",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080 --bind 0.0.0.0",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": ["game", "canvas", "flappy-bird", "javascript"],
+  "license": "MIT",
+  "private": true
+}
